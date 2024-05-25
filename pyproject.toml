@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fyers-token-manager-3"
+version = "0.1.0"
+description = ""
+authors = ["Krunal Dodiya <kunal.dodiya1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+logzero = "^1.7.0"
+python = "^3.10"
+requests = "^2.31.0"
+websockets = "^12.0"
+fyers-apiv3 = "^3.0.7"
+pyotp = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
