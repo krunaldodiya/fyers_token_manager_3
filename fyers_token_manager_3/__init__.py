@@ -9,7 +9,7 @@ from fyers_apiv3 import fyersModel
 from fyers_apiv3.FyersWebsocket.data_ws import FyersDataSocket
 from fyers_apiv3.fyersModel import FyersModel
 
-from base_token_manager import BaseTokenManager
+from fyers_token_manager_3.base_token_manager import BaseTokenManager
 
 AUTH_URL = "https://api-t2.fyers.in/vagator/v2"
 API_URL = "https://api.fyers.in/api/v2"
