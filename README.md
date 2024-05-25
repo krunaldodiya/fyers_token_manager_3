@@ -1,14 +1,3 @@
-```
-config = {
-    "username": "<USERNAME>",
-    "totp_key": "<TOTP_KEY>",
-    "pin": "<PIN>",
-    "client_id": "<CLIENT_ID>",
-    "secret_key": "<SECRET_KEY>",
-    "redirect_uri": "<REDIRECT_URL>",
-}
-```
-
 ## Install
 
 ```
@@ -19,6 +8,15 @@ pip install fyers-token-manager-3
 
 ```
 from fyers_token_manager_3 import FyersTokenManager
+
+config = {
+    "username": "<USERNAME>",
+    "totp_key": "<TOTP_KEY>",
+    "pin": "<PIN>",
+    "client_id": "<CLIENT_ID>",
+    "secret_key": "<SECRET_KEY>",
+    "redirect_url": "<REDIRECT_URL>",
+}
 
 fyersTokenManager = FyersTokenManager(
     username=config["username"],
