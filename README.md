@@ -1,11 +1,11 @@
 ```
 config = {
-  "username": "<USERNAME>",
-  "totp_key": "<TOTP_KEY>",
-  "pin": "<PIN>",
-  "client_id": "<CLIENT_ID>",
-  "secret_key": "<SECRET_KEY>",
-  "redirect_uri": <REDIRECT_URL>
+    "username": "<USERNAME>",
+    "totp_key": "<TOTP_KEY>",
+    "pin": "<PIN>",
+    "client_id": "<CLIENT_ID>",
+    "secret_key": "<SECRET_KEY>",
+    "redirect_uri": "<REDIRECT_URL>",
 }
 ```
 
